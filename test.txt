@@ -1,0 +1,22 @@
+v0.4
+git init //初始化
+git add 文件  //文件加入预提交区
+git commit -m "注释内容 fix(test): change content" //提交当前文件并注释
+git log  //查看日志文件
+
+git reset --hard (conmmitid) //回退到某次版本 commitid为某次提交的ID号
+
+git branch 分支名  //创建分支
+git checkout 分支名  //切换分支（主分支为master）
+
+git merge 分支名  //合并分支
+
+git remote add origin 网盘地址 //上传GitHub git@github.com:Arron8061/JavaScript.git
+
+git remote add origin https://gitee.com/hua-yuwei/java-script.git
+
+git remote add origin https://github.com/Arron8061/JavaScript.git
+
+git remote rm origin //发生错误 清除
+
+git push -u origin main  //
